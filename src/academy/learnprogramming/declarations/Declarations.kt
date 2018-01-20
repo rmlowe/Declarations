@@ -1,9 +1,13 @@
 package academy.learnprogramming.declarations
 
+typealias EmployeeSet = Set<Employee>
+
 fun main(args: Array<String>) {
     var number: Int
     number = 10
     number = 20
+
+    val employees: EmployeeSet
 
     val employee1 = Employee("Lynn Jones", 500)
     employee1.name = "Lynn Smith"
@@ -18,7 +22,9 @@ fun main(args: Array<String>) {
         employee2 = Employee("Mike Watson", 150)
     }
 
-    number = "hello"
+
+
+
 
 }
 
