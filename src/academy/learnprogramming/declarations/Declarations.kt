@@ -7,7 +7,6 @@ fun main(args: Array<String>) {
 
     val employee1 = Employee("Lynn Jones", 500)
     employee1.name = "Lynn Smith"
-    employee1 = Employee("Tim Watson", 100)
 
     val employee2: Employee
     val number2 = 100
